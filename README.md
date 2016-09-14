@@ -13,21 +13,22 @@ Some samples of generated reviews with the trained model is in generated_review.
 
 ## How to run
 
-First download the yelp academic dataset from https://www.yelp.com/dataset_challenge
+1. First download the yelp academic dataset from https://www.yelp.com/dataset_challenge
 
-Unzip the file and you should find a file called `yelp_academic_dataset_review.json`
+2. Unzip the file and you should find a file called `yelp_academic_dataset_review.json`
 
-We first parse the JSON file into a plain text file with reviews only:
+3. We first parse the JSON file into a plain text file with reviews only:
 
-$ python -m review_generator.data_preprocess --input-file yelp_academic_dataset_review.json
+    `$ python -m review_generator.data_preprocess --input-file yelp_academic_dataset_review.json`
 
-This will output to a file called all_reviews.txt
+    This will output to a file called `all_reviews.txt`
 
-Then train the model:
+4. Then train the model:
 
-$ python -m review_generator.train --input-file all_reviews.txt --model-config rnn_config.json
+    `$ python -m review_generator.train --input-file all_reviews.txt --model-config rnn_config.json`
 
-By default the model is saved to a file `char_rnn_model.ckpt`
-After the training is done you can use it to generate some synthesized reviews:
+    By default the model is saved to a file `char_rnn_model.ckpt`
 
-$ python -m review_generator.generate --model-config rnn_config.json
+5. After the training is done you can use it to generate some synthesized reviews:
+
+    `$ python -m review_generator.generate --model-config rnn_config.json`
