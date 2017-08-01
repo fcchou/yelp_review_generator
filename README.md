@@ -12,6 +12,7 @@ The trained_model contains a model trained on GTX 1070 for 2 days, using the con
 You may find examples of generated reviews with the trained model in [generated_review.txt](./generated_review.txt).
 
 Some funny examples:
+
 I don't know why I've really dealt with this club. However you'll see some of these gems instead> a repeat blad quinen to reds, welcoming, meat, (will NEVER know despite cheese mediterranean...don't come here for wings) This building requires an empty reservation of food! 5 to 4 stars. If you want to go all of the way, I personally must say that will tell you I'll am sure there are more copys who order rub in day at home.
 
 The staff is always always friendly and nice. And you refer chances and offer tips. One' needed a bright business training hands down. If you're coming out of my way for a booth before you call it a place charge, I've also read printing new ones, maybe we will love the bar pils in mind or tired. Just give these pictures and treat your main dammion, but I have experiences everything they have.
